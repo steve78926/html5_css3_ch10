@@ -47,11 +47,16 @@ input,textarea {outline:none;}
 .videobox nav ul .center input{width:240px;height:30px;border:1px solid #fff; border-radius:15px;color:#fff;line-height:32px;
     background:rgba(0,0,0,0);padding-left:30px;box-sizing:border-box;background:url(../images/search.png) no-repeat 3px 3px;}
 
+
+/* 定义字体*/
+@font-face { font-family:'freshskin';src:url('../fonts/iconfont.ttf');  }
+
 /* videobox nav .right */
-.videobox nav ul .right {margin-top:32px; width:280px;height:32px;margin-right:0; text-align:center;line-height:32px;font-size:16px;}
+.videobox nav ul .right {margin-top:32px; width:280px;height:32px;margin-right:0; text-align:center;line-height:32px;font-size:16px;font-family:"freshskin"}
 .videobox nav ul .right a {display:inline-block; width:32px;height:32px;color:#fff;box-shadow:0 0 0 1px #fff inset;
     transition:box-shadow 0.3s ease 0s;border-radius:16px;margin-left:30px;}
 .videobox nav ul .right a:hover {box-shadow:0 0 0 16px #fff inset; color:#C1DCC5;}
+
 
 /* videobox pic */
 .videobox .pic {width:570px;height:210px;position:absolute; left:50%; top:50%;transform:translate(-50%,-50%);
@@ -64,7 +69,7 @@ input,textarea {outline:none;}
 body:hover .videobox .pic ul .one {position:absolute;left:100px;top:40px;opacity:0.8;}
 body:hover .videobox .pic ul .two {position:absolute;left:300px;top:40px;opacity:0.8;}
 .videobox .pic ul .one span,.videobox .pic ul .two span {float:left;width:40px;height:40px;text-align:center;line-height:40px;border-radius:20px;
-margin:8px 10px 0 10px;box-shadow:0 0 0 2px #90c197 inset;transition:box-shadow 0.3s ease 0s; font-weight:bold; color:#90c197;}
+margin:8px 10px 0 10px;box-shadow:0 0 0 2px #90c197 inset;transition:box-shadow 0.3s ease 0s; font-weight:bold; color:#90c197;font-family:"freshskin";}
 .videobox .pic ul .two span {margin:8px 30px 0 10px;}
 .videobox .pic ul .one:hover span,.videobox .pic ul .two:hover span {box-shadow:0 0 0 20px #90c197 inset;color:#fff;}
 
