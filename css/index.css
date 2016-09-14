@@ -81,7 +81,7 @@ margin:8px 10px 0 10px;box-shadow:0 0 0 2px #90c197 inset;transition:box-shadow 
 .new p{margin-top:10px;text-align:center;color:#db0067;border:1px solid red;}
 .new ul {margin:70px auto 0;width:960px;border:1px solid red;}
 .new ul li {width:266px;height:250px;border:1px solid #ccc; background:url(../images/pic1.jpg) 0 0 no-repeat;float:left;margin-right:8%;
-    margin-bottom:40px;position:relative;}
+    margin-bottom:40px;position:relative;overflow:hidden;}
 .new ul li:nth-child(2) {background-image:url(../images/pic2.jpg);}
 .new ul li:nth-child(3) {margin-right:0;background-image:url(../images/pic3.jpg);}
 .new ul li hgroup {position:absolute;left:0;top:-250px;width:266px;height:250px;background:rgba(0,0,0,0.5);transition:all 0.5s ease-in 0s;}
